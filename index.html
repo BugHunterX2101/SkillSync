@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Community Skill-Sharing Hub</title>
+</head>
+<body>
+    <header>
+        <h1>Community Skill-Sharing Hub</h1>
+    </header>
+    <main>
+        <section id="registration">
+            <h2>Register</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+                <label for="skillsOffered">Skills Offered (comma-separated):</label>
+                <input type="text" id="skillsOffered" required>
+                <label for="skillsWanted">Skills Wanted (comma-separated):</label>
+                <input type="text" id="skillsWanted" required>
+                <label for="availability">Availability:</label>
+                <input type="text" id="availability" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <section id="matches">
+            <h2>Matched Users</h2>
+            <div id="matchedUsers"></div>
+        </section>
+    </main>
+</body>
+</html>
